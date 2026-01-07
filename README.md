@@ -55,17 +55,17 @@ source venv/bin/activate      # macOS / Linux
 venv\Scripts\activate         # Windows
 
 
-Install dependencies:
+**Install dependencies:**
 pip install -r requirements.txt
 
-Run Streamlit:
+**Run Streamlit:**
 
 streamlit run src/app.py
 
 **Disclaimer**
 
 This repository is intended for educational and portfolio demonstration purposes.
-The dataset is synthetic and anonymized, and no confidential business data is included.
+The dataset is an ethical replical from a previous client project, and no confidential business data is included.
 
 **Contribution**
 
