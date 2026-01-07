@@ -117,4 +117,4 @@ if run_button:
             st.json(prob_table)
 
 st.write("---")
-st.caption("Built with small dataset v1. More data = higher accuracy 🚀")
+st.caption("This isn’t based on production data — it’s a lightweight open-source reconstruction of a workflow I originally built for a real client environment.")

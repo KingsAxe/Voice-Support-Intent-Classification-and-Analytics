@@ -1,0 +1,65 @@
+# --- Python basics ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# --- Virtual environments ---
+venv/
+.venv/
+env/
+ENV/
+*.env
+
+# --- IDE / OS files ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Build / packaging ---
+build/
+dist/
+*.egg-info/
+
+# --- Logs / cache ---
+*.log
+logs/
+.cache/
+.ipynb_checkpoints/
+
+# --- Notebooks ---
+# (this keeps checkpoints only — your notebooks still commit normally)
+.ipynb_checkpoints/
+
+# --- Data files ---
+data/
+datasets/
+*.csv
+*.xlsx
+*.parquet
+*.json
+
+# --- Models ---
+models/
+*.pkl
+*.joblib
+*.bin
+
+# --- Streamlit ---
+.streamlit/secrets.toml
+
+# --- Environment + secrets ---
+.env
+.env.local
+*.secret
+secrets.*
+
+# --- Reports + output ---
+outputs/
+reports/
+figures/
+
+# --- Jupyter runtime ---
+.jupyter/
